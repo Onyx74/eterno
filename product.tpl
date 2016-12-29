@@ -351,7 +351,7 @@ $("#owl-example-addimg").owlCarousel({
                  <a class="w3" title="<?php echo $button_wishlist; ?>" onclick="addToWishList('<?php echo $product_id; ?>');"><?php echo $button_wishlist; ?></a>
                </div>
                <div class="cartbutton">
-                 <a><input type="button" value="<?php echo $button_cart; ?>" title="<?php echo $button_cart; ?>" id="button-cart" class="button" /></a>
+                 <a onclick="addToCart('<?php echo $product_id; ?>');"><input type="button" value="<?php echo $button_cart; ?>" title="<?php echo $button_cart; ?>" id="button-cart" class="button" /></a>
                </div>
                <div class="compare">
                   <a class="c3" title="<?php echo $button_compare; ?>" onclick="addToCompare('<?php echo $product_id; ?>');"><?php echo $button_compare; ?></a>
@@ -361,7 +361,7 @@ $("#owl-example-addimg").owlCarousel({
                   <a class="w3" title="<?php echo $button_wishlist; ?>" onclick="addToWishList('<?php echo $product_id; ?>');"></a>
                 </div>
                 <div class="cartbutton">
-                  <a><input type="button" value="<?php echo $button_cart; ?>" title="<?php echo $button_cart; ?>" id="button-cart" class="button" /></a>
+                  <a onclick="addToCart('<?php echo $product_id; ?>');"><input type="button" value="<?php echo $button_cart; ?>" title="<?php echo $button_cart; ?>" id="button-cart" class="button" /></a>
                 </div>
                 <div class="compare">
                   <a class="c3" title="<?php echo $button_compare; ?>" onclick="addToCompare('<?php echo $product_id; ?>');"></a>
